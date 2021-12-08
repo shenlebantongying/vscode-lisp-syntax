@@ -1,9 +1,10 @@
 {
-  "name": "Lisp",
-  "version": "0.1.11",
-  "publisher": "mattn",
-  "description": "Lisp syntax highlight",
+  "name": "Lisp-Syntax",
+  "version": "0.2.1",
+  "publisher": "slbtty",
+  "description": "Syntax highlight for lisp family of languages",
   "author": {
+    "name": "Shenlebantongying (a.k.a slbtty)",
     "name": "Yasuhiro Matsumoto (a.k.a mattn)"
   },
   "icon": "images/lisp.png",
@@ -12,7 +13,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattn/vscode-lisp"
+    "url": "https://github.com/shenlebantongying/vscode-lisp-syntax"
   },
   "dependencies": {},
   "devDependencies": {
@@ -25,8 +26,8 @@
   "contributes": {
     "languages": [{
       "id": "lisp",
-      "aliases": ["Lisp", "lisp"],
-      "extensions": [".lisp", ".cl", ".asd", ".ros", ".lsp", ".el", ".fnl"],
+      "aliases": ["Lisp", "lisp", "Scheme", "scheme"],
+      "extensions": [".lisp", ".cl", ".asd", ".ros", ".lsp", ".el", ".fnl", ".scm" ,".rkt"],
       "configuration": "./Lisp.configuration.json"
     }],
     "grammars": [{
@@ -46,6 +47,6 @@
   },
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/mattn/vscode-lisp/issues"
+    "url": "https://github.com/shenlebantongying/vscode-lisp-syntax/issues"
   }
 }
