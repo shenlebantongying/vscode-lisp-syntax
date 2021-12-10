@@ -9,6 +9,12 @@ This extension stripped keyword highlights from the original extension and keep 
 + VSCODE cannot load custom rc file or user config like Emacs or Vim. Thus, i have to publish this to microsoft server to enable those basic things.
 + To define VSCODE a file type called lisp and thus the built-in rainbow bracket can be used.
 
+# Install
+
+Microsoft's marketplace <https://marketplace.visualstudio.com/items?itemName=slbtty.Lisp-Syntax>
+
+Open VSX registry <https://open-vsx.org/extension/slbtty/Lisp-Syntax>
+
 ## License: MIT
 
 The ancestor of this extension lives in
